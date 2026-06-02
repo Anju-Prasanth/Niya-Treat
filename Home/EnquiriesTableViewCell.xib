@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-Proxima-Nova-Sbold.otf">
+            <string>ProximaNova-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="EnquiriesTableViewCell" rowHeight="215" id="KGk-i7-Jjw" customClass="EnquiriesTableViewCell" customModule="NiyaTreat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="215"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 374" translatesAutoresizingMaskIntoConstraints="NO" id="dha-KG-Egl">
+                        <rect key="frame" x="24" y="0.0" width="341" height="215"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="341" id="1aX-IR-mrs"/>
+                            <constraint firstAttribute="height" constant="215" id="JMY-vl-hZP"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 45" translatesAutoresizingMaskIntoConstraints="NO" id="0Cf-Dg-QVZ">
+                        <rect key="frame" x="24" y="11" width="50" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="U3c-OC-UWh"/>
+                            <constraint firstAttribute="height" constant="48" id="kYb-wX-RcF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enquires" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oly-OW-WYd">
+                        <rect key="frame" x="82" y="10" width="193" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="193" id="ELI-bu-cHG"/>
+                            <constraint firstAttribute="height" constant="28" id="yTa-5E-Q9h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="19"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planning the perfect holiday requires covering a lot of aspects." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N04-Df-rPD">
+                        <rect key="frame" x="83" y="31" width="278" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="QA2-5N-FfM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="2oA-1u-4Ti">
+                        <rect key="frame" x="51" y="90" width="306" height="116"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yL-vD-f5G">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="116"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytc-z4-iAR">
+                                        <rect key="frame" x="3" y="0.0" width="67" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="67" id="Qbs-uI-bfk"/>
+                                            <constraint firstAttribute="height" constant="110" id="jBb-DG-16s"/>
+                                        </constraints>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="concert" translatesAutoresizingMaskIntoConstraints="NO" id="SWK-UF-BTa">
+                                        <rect key="frame" x="11" y="7" width="49" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="6RP-lo-tA2"/>
+                                            <constraint firstAttribute="width" constant="49" id="P3o-Nw-qQk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banquet Enquiry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWY-Hi-tgx">
+                                        <rect key="frame" x="6" y="76" width="59" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="Qn9-0E-vQj"/>
+                                            <constraint firstAttribute="width" constant="59" id="w0Y-WU-4iX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="13"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="SWK-UF-BTa" firstAttribute="leading" secondItem="3yL-vD-f5G" secondAttribute="leading" constant="11" id="7zx-25-SFB"/>
+                                    <constraint firstItem="ytc-z4-iAR" firstAttribute="top" secondItem="3yL-vD-f5G" secondAttribute="top" id="M33-pp-UfI"/>
+                                    <constraint firstItem="SWK-UF-BTa" firstAttribute="top" secondItem="3yL-vD-f5G" secondAttribute="top" constant="7" id="MJn-I0-aeI"/>
+                                    <constraint firstItem="ytc-z4-iAR" firstAttribute="leading" secondItem="3yL-vD-f5G" secondAttribute="leading" constant="3" id="T1J-Bj-ZrY"/>
+                                    <constraint firstAttribute="height" constant="116" id="ce4-hN-17h"/>
+                                    <constraint firstItem="zWY-Hi-tgx" firstAttribute="leading" secondItem="3yL-vD-f5G" secondAttribute="leading" constant="6" id="ecr-fd-qAR"/>
+                                    <constraint firstItem="zWY-Hi-tgx" firstAttribute="top" secondItem="SWK-UF-BTa" secondAttribute="bottom" constant="24" id="t6m-dG-hhj"/>
+                                    <constraint firstAttribute="width" constant="80" id="xjZ-KU-bR3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pkc-1Q-sme">
+                                <rect key="frame" x="112" y="-4" width="80" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCu-lA-7D0">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="Jm7-xu-loE"/>
+                                            <constraint firstAttribute="height" constant="112" id="fCU-ws-AcQ"/>
+                                        </constraints>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catering" translatesAutoresizingMaskIntoConstraints="NO" id="oKA-CR-DHG">
+                                        <rect key="frame" x="10" y="10" width="51" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="51" id="Lpv-4e-krb"/>
+                                            <constraint firstAttribute="height" constant="46" id="qDs-GH-def"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catering Enquiry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qo-Sl-8RP">
+                                        <rect key="frame" x="12" y="83" width="51" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="51" id="DeX-Pu-cTt"/>
+                                            <constraint firstAttribute="height" constant="27" id="i6s-L5-pP3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="LCu-lA-7D0" firstAttribute="top" secondItem="Pkc-1Q-sme" secondAttribute="top" id="1jc-Cr-7si"/>
+                                    <constraint firstAttribute="width" constant="80" id="39Y-Wn-3MF"/>
+                                    <constraint firstItem="4Qo-Sl-8RP" firstAttribute="leading" secondItem="Pkc-1Q-sme" secondAttribute="leading" constant="12" id="4bC-ux-n5B"/>
+                                    <constraint firstItem="4Qo-Sl-8RP" firstAttribute="top" secondItem="oKA-CR-DHG" secondAttribute="bottom" constant="27" id="BE2-ln-qaN"/>
+                                    <constraint firstItem="oKA-CR-DHG" firstAttribute="leading" secondItem="Pkc-1Q-sme" secondAttribute="leading" constant="10" id="FTG-t6-4Xx"/>
+                                    <constraint firstItem="oKA-CR-DHG" firstAttribute="top" secondItem="Pkc-1Q-sme" secondAttribute="top" constant="10" id="JHN-ES-udJ"/>
+                                    <constraint firstAttribute="height" constant="120" id="JSp-dV-Vnk"/>
+                                    <constraint firstItem="LCu-lA-7D0" firstAttribute="leading" secondItem="Pkc-1Q-sme" secondAttribute="leading" id="cLB-Yd-pYg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4l-Gs-FrM">
+                                <rect key="frame" x="224" y="-7" width="82" height="123"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bag" translatesAutoresizingMaskIntoConstraints="NO" id="7aE-Mf-rPH">
+                                        <rect key="frame" x="13" y="13" width="50" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="47" id="gIZ-I7-d4a"/>
+                                            <constraint firstAttribute="width" constant="50" id="qQd-6O-ORb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Packages Enquiry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axk-pR-wxS">
+                                        <rect key="frame" x="9" y="83" width="62" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="62" id="Vdo-PE-CnG"/>
+                                            <constraint firstAttribute="height" constant="31" id="zeG-75-nQM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mda-Uz-eD2">
+                                        <rect key="frame" x="0.0" y="0.0" width="82" height="123"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="82" id="64v-tQ-Fdq"/>
+                                            <constraint firstAttribute="height" constant="123" id="dyj-yF-wJe"/>
+                                        </constraints>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Mda-Uz-eD2" firstAttribute="leading" secondItem="f4l-Gs-FrM" secondAttribute="leading" id="35F-U5-7Ub"/>
+                                    <constraint firstItem="7aE-Mf-rPH" firstAttribute="leading" secondItem="f4l-Gs-FrM" secondAttribute="leading" constant="13" id="5Td-jZ-JAH"/>
+                                    <constraint firstItem="7aE-Mf-rPH" firstAttribute="top" secondItem="f4l-Gs-FrM" secondAttribute="top" constant="13" id="5nt-Mv-9uD"/>
+                                    <constraint firstAttribute="height" constant="123" id="6JR-P1-DnO"/>
+                                    <constraint firstItem="axk-pR-wxS" firstAttribute="leading" secondItem="f4l-Gs-FrM" secondAttribute="leading" constant="9" id="Brz-Lp-tKd"/>
+                                    <constraint firstAttribute="width" constant="82" id="FKp-85-SOt"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mda-Uz-eD2" secondAttribute="bottom" id="Rnx-xC-20Q"/>
+                                    <constraint firstItem="axk-pR-wxS" firstAttribute="top" secondItem="7aE-Mf-rPH" secondAttribute="bottom" constant="23" id="qbh-vY-XPk"/>
+                                    <constraint firstItem="Mda-Uz-eD2" firstAttribute="top" secondItem="f4l-Gs-FrM" secondAttribute="top" id="uga-MA-jIX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="116" id="9SA-qM-w15"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="N04-Df-rPD" secondAttribute="trailing" constant="15" id="3iG-9E-UJD"/>
+                    <constraint firstItem="dha-KG-Egl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="4Q0-lN-x9a"/>
+                    <constraint firstItem="2oA-1u-4Ti" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="51" id="7IZ-ba-4jJ"/>
+                    <constraint firstItem="2oA-1u-4Ti" firstAttribute="top" secondItem="N04-Df-rPD" secondAttribute="bottom" constant="14" id="84g-0r-XbO"/>
+                    <constraint firstItem="Oly-OW-WYd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="EKk-sp-rI8"/>
+                    <constraint firstItem="N04-Df-rPD" firstAttribute="leading" secondItem="0Cf-Dg-QVZ" secondAttribute="trailing" constant="9" id="J0P-2B-eHp"/>
+                    <constraint firstAttribute="trailing" secondItem="2oA-1u-4Ti" secondAttribute="trailing" constant="19" id="LEf-21-aEP"/>
+                    <constraint firstAttribute="trailing" secondItem="dha-KG-Egl" secondAttribute="trailing" constant="11" id="WlW-kg-R9h"/>
+                    <constraint firstItem="dha-KG-Egl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZTO-J3-gnX"/>
+                    <constraint firstItem="0Cf-Dg-QVZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="dtZ-d4-2B4"/>
+                    <constraint firstItem="N04-Df-rPD" firstAttribute="top" secondItem="Oly-OW-WYd" secondAttribute="bottom" constant="-7" id="kQq-At-mRp"/>
+                    <constraint firstItem="0Cf-Dg-QVZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="oqe-89-BDI"/>
+                    <constraint firstItem="Oly-OW-WYd" firstAttribute="leading" secondItem="0Cf-Dg-QVZ" secondAttribute="trailing" constant="8" id="qnF-l7-DZK"/>
+                    <constraint firstAttribute="bottom" secondItem="dha-KG-Egl" secondAttribute="bottom" id="xqY-3f-Sjk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnbanquetenquiry" destination="ytc-z4-iAR" id="VdY-Ia-yM5"/>
+                <outlet property="btncateringenquiry" destination="LCu-lA-7D0" id="tbW-xh-SDl"/>
+                <outlet property="btnpackageenquiry" destination="Mda-Uz-eD2" id="LR9-eo-qft"/>
+                <outlet property="viewbanquet" destination="3yL-vD-f5G" id="gDx-xT-h7Y"/>
+                <outlet property="viewcatering" destination="Pkc-1Q-sme" id="9Vn-IZ-QES"/>
+                <outlet property="viewpackages" destination="f4l-Gs-FrM" id="VM0-Cc-7JQ"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="50.558035714285715"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Group 45" width="44" height="44"/>
+        <image name="Path 374" width="375" height="227"/>
+        <image name="bag" width="40" height="40"/>
+        <image name="catering" width="40" height="40"/>
+        <image name="concert" width="40" height="40"/>
+    </resources>
+</document>

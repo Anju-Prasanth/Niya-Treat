@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PackageTableViewCell" rowHeight="435" id="KGk-i7-Jjw" customClass="PackageTableViewCell" customModule="NiyaRegency" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="435"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="435"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ElN-Fa-AuO">
+                        <rect key="frame" x="13" y="11" width="317" height="412"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JxO-l6-M5i">
+                                <rect key="frame" x="0.0" y="0.0" width="317" height="229"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Niya-package-Guruvayur_Temple_Package-191101081906" translatesAutoresizingMaskIntoConstraints="NO" id="aJm-k8-h0P">
+                                        <rect key="frame" x="0.0" y="0.0" width="317" height="171"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="171" id="J2a-XE-Jbh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guruvayoor Temple Package" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re4-9k-EVr">
+                                        <rect key="frame" x="8" y="174" width="202" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="KOQ-wi-CUM"/>
+                                            <constraint firstAttribute="width" constant="202" id="uNV-Qw-NSE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹ 4500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Dj-sR-DJ1">
+                                        <rect key="frame" x="8" y="200" width="168" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Soq-vA-26h"/>
+                                            <constraint firstAttribute="width" constant="168" id="oom-0Q-67w"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="aJm-k8-h0P" firstAttribute="top" secondItem="JxO-l6-M5i" secondAttribute="top" id="7cY-kI-aou"/>
+                                    <constraint firstItem="2Dj-sR-DJ1" firstAttribute="top" secondItem="re4-9k-EVr" secondAttribute="bottom" constant="5" id="J8h-Zd-Lrd"/>
+                                    <constraint firstAttribute="trailing" secondItem="aJm-k8-h0P" secondAttribute="trailing" id="O1r-ht-bxZ"/>
+                                    <constraint firstAttribute="height" constant="229" id="PZS-rY-j84"/>
+                                    <constraint firstItem="aJm-k8-h0P" firstAttribute="leading" secondItem="JxO-l6-M5i" secondAttribute="leading" id="W7G-IF-vx2"/>
+                                    <constraint firstItem="re4-9k-EVr" firstAttribute="leading" secondItem="JxO-l6-M5i" secondAttribute="leading" constant="8" id="bIS-pP-oYs"/>
+                                    <constraint firstItem="2Dj-sR-DJ1" firstAttribute="leading" secondItem="JxO-l6-M5i" secondAttribute="leading" constant="8" id="yFH-yG-NP4"/>
+                                    <constraint firstItem="re4-9k-EVr" firstAttribute="top" secondItem="aJm-k8-h0P" secondAttribute="bottom" constant="3" id="yQf-Of-OhT"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9oU-GK-zHb">
+                                <rect key="frame" x="12" y="240" width="24" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-03-EEe">
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylQ-M7-WIX">
+                                        <rect key="frame" x="0.0" y="32" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2Y-wa-3vZ">
+                                        <rect key="frame" x="0.0" y="64" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpI-Uh-pSA">
+                                        <rect key="frame" x="0.0" y="96" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEF-3m-STX">
+                                        <rect key="frame" x="0.0" y="128" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="152" id="1uH-ju-yLy"/>
+                                    <constraint firstAttribute="width" constant="24" id="PU6-uD-JS0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="HhY-0r-vpc">
+                                <rect key="frame" x="45" y="242" width="160" height="144"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accomodation for 2pax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKK-Ct-mPh">
+                                        <rect key="frame" x="0.0" y="0.0" width="140.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Executive room on CP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6S3-NV-Q58">
+                                        <rect key="frame" x="0.0" y="32" width="132.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guryvayoor Temple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyH-a3-Edr">
+                                        <rect key="frame" x="0.0" y="64" width="117" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mammiyur Temple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6M-Ba-p2p">
+                                        <rect key="frame" x="0.0" y="96" width="111" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elephant Fort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7Y-El-AuC">
+                                        <rect key="frame" x="0.0" y="128" width="81.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="SNb-UT-Ux3"/>
+                                    <constraint firstAttribute="height" constant="144" id="dPM-9T-EDe"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JxO-l6-M5i" secondAttribute="trailing" id="7fj-hT-7d8"/>
+                            <constraint firstItem="JxO-l6-M5i" firstAttribute="top" secondItem="ElN-Fa-AuO" secondAttribute="top" id="Ban-xb-68L"/>
+                            <constraint firstItem="9oU-GK-zHb" firstAttribute="leading" secondItem="ElN-Fa-AuO" secondAttribute="leading" constant="12" id="QHx-6T-9ha"/>
+                            <constraint firstItem="HhY-0r-vpc" firstAttribute="top" secondItem="JxO-l6-M5i" secondAttribute="bottom" constant="13" id="eBI-FJ-fid"/>
+                            <constraint firstItem="HhY-0r-vpc" firstAttribute="leading" secondItem="9oU-GK-zHb" secondAttribute="trailing" constant="9" id="mQt-mw-vvE"/>
+                            <constraint firstItem="9oU-GK-zHb" firstAttribute="top" secondItem="JxO-l6-M5i" secondAttribute="bottom" constant="11" id="nc0-3c-zTA"/>
+                            <constraint firstItem="JxO-l6-M5i" firstAttribute="leading" secondItem="ElN-Fa-AuO" secondAttribute="leading" id="wsv-dg-T7U"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="ElN-Fa-AuO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="aLe-n4-ryl"/>
+                    <constraint firstItem="ElN-Fa-AuO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="hka-zA-9ff"/>
+                    <constraint firstAttribute="bottom" secondItem="ElN-Fa-AuO" secondAttribute="bottom" constant="12" id="p9w-wN-7TK"/>
+                    <constraint firstAttribute="trailing" secondItem="ElN-Fa-AuO" secondAttribute="trailing" constant="12" id="wpN-nU-hSa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Outerview" destination="ElN-Fa-AuO" id="jgT-B5-lbn"/>
+                <outlet property="imageview" destination="aJm-k8-h0P" id="OqG-UW-oG0"/>
+            </connections>
+            <point key="canvasLocation" x="153.62318840579712" y="128.90625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Niya-package-Guruvayur_Temple_Package-191101081906" width="550" height="413"/>
+        <image name="icons8-unchecked-radio-button-24" width="24" height="24"/>
+    </resources>
+</document>

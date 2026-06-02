@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="657" id="KGk-i7-Jjw" customClass="LivecounterTableViewCell" customModule="NiyaRegency" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="657"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="657"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-3w-d7Q">
+                        <rect key="frame" x="13" y="28" width="295" height="618"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tawa grilled fish - South Indian (Mathi, Squid, Maanthal, Karimeen, Avoli, Neymeen, Braal, Prawns)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cq0-fl-GsR">
+                                <rect key="frame" x="13" y="38" width="269" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="7RT-8N-bsE"/>
+                                    <constraint firstAttribute="height" constant="54" id="KET-cL-Q72"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dosa (Paneer, Egg, Masala, Chicken, Fish)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01x-8H-0f0">
+                                <rect key="frame" x="4" y="149" width="287" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="287" id="LCL-tc-UtB"/>
+                                    <constraint firstAttribute="height" constant="44" id="xZc-rq-CWv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Omelette and Kappa, Fried Egg, Boiled Egg" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3x4-uq-rHn">
+                                <rect key="frame" x="11" y="197" width="273" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="aQp-Sk-hfY"/>
+                                    <constraint firstAttribute="width" constant="273" id="pS0-hy-XfZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BBQ Chicken (Continental)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjr-iN-myN">
+                                <rect key="frame" x="24" y="241" width="247" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="27P-L6-2Ye"/>
+                                    <constraint firstAttribute="width" constant="247" id="ieo-Cn-jg4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BBQ Pork Ribs (Continental)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNM-u0-vXW">
+                                <rect key="frame" x="33.5" y="274" width="228" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="RyB-Hw-ITM"/>
+                                    <constraint firstAttribute="width" constant="228" id="dHT-MD-XbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fruits Counters (Vegetable Craving)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aU8-SY-mCU">
+                                <rect key="frame" x="22" y="311" width="251" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="FRl-Z2-Jd0"/>
+                                    <constraint firstAttribute="height" constant="18" id="GvD-QQ-y3J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Fruit Juice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajw-H4-V9l">
+                                <rect key="frame" x="33" y="343" width="229" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="QTZ-Hn-ngh"/>
+                                    <constraint firstAttribute="width" constant="229" id="bPT-MS-B16"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bread Craving" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISU-Iu-0ay">
+                                <rect key="frame" x="27.5" y="373" width="240" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="5Kp-ip-G2Y"/>
+                                    <constraint firstAttribute="width" constant="240" id="X2t-oe-X3h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sweet Couunter (Jalebi, Burfi, Coconut Laddu, Peda, Gulab Jamun, Mocktail" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31O-p1-5Vl">
+                                <rect key="frame" x="15" y="402" width="265" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="HH2-pz-gsV"/>
+                                    <constraint firstAttribute="width" constant="265" id="XsJ-c5-SsP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tea &amp; Coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RA-GM-hdd">
+                                <rect key="frame" x="27.5" y="467" width="240" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="cMO-bm-j6b"/>
+                                    <constraint firstAttribute="height" constant="18" id="iO3-Gg-Kr2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sugar Candy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mjb-fx-iY1">
+                                <rect key="frame" x="39" y="493" width="217" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="217" id="KOx-4H-mwH"/>
+                                    <constraint firstAttribute="height" constant="18" id="oxD-xj-4lN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pop Corn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxW-hr-PNd">
+                                <rect key="frame" x="54" y="520" width="187" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="187" id="8s6-cn-Nrr"/>
+                                    <constraint firstAttribute="height" constant="18" id="u8h-ii-U5a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chocolate Fountain" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpf-zz-z4q">
+                                <rect key="frame" x="47.5" y="554" width="200" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="02I-ZD-IBe"/>
+                                    <constraint firstAttribute="height" constant="18" id="5iB-Bl-DHu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thattukada (live) Shappu curry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAy-Hy-3SR">
+                                <rect key="frame" x="31" y="584" width="233" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="EvI-MG-QTb"/>
+                                    <constraint firstAttribute="width" constant="233" id="c12-7w-6Aa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grilled fish - Continental, (Squid, Neymeen, Prawns)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnS-iS-DVR">
+                                <rect key="frame" x="4" y="101" width="287" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="C8G-n6-XF7"/>
+                                    <constraint firstAttribute="width" constant="287" id="fLc-HG-vZW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rjr-iN-myN" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="0FD-ic-lh1"/>
+                            <constraint firstItem="LxW-hr-PNd" firstAttribute="top" secondItem="Mjb-fx-iY1" secondAttribute="bottom" constant="9" id="1Db-Mj-PbO"/>
+                            <constraint firstItem="ajw-H4-V9l" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="4dk-qq-QkG"/>
+                            <constraint firstItem="Cq0-fl-GsR" firstAttribute="top" secondItem="Otd-3w-d7Q" secondAttribute="top" constant="38" id="5L4-Cv-RmQ"/>
+                            <constraint firstItem="aNM-u0-vXW" firstAttribute="top" secondItem="rjr-iN-myN" secondAttribute="bottom" constant="15" id="6ge-sw-n3f"/>
+                            <constraint firstItem="vAy-Hy-3SR" firstAttribute="top" secondItem="gpf-zz-z4q" secondAttribute="bottom" constant="12" id="90U-aV-j1J"/>
+                            <constraint firstItem="3x4-uq-rHn" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="DcK-kT-jg7"/>
+                            <constraint firstItem="vAy-Hy-3SR" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="Fbq-b7-jo0"/>
+                            <constraint firstItem="LxW-hr-PNd" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="HDM-H7-uGE"/>
+                            <constraint firstItem="aNM-u0-vXW" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="IeF-eX-XQc"/>
+                            <constraint firstItem="2RA-GM-hdd" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="LMM-jE-3CX"/>
+                            <constraint firstItem="ajw-H4-V9l" firstAttribute="top" secondItem="aU8-SY-mCU" secondAttribute="bottom" constant="14" id="LMS-rV-ZZx"/>
+                            <constraint firstItem="3x4-uq-rHn" firstAttribute="top" secondItem="01x-8H-0f0" secondAttribute="bottom" constant="4" id="MOl-Ya-07d"/>
+                            <constraint firstItem="ISU-Iu-0ay" firstAttribute="top" secondItem="ajw-H4-V9l" secondAttribute="bottom" constant="12" id="Sos-fG-5jq"/>
+                            <constraint firstItem="gpf-zz-z4q" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="YsC-dz-nO5"/>
+                            <constraint firstItem="aU8-SY-mCU" firstAttribute="top" secondItem="aNM-u0-vXW" secondAttribute="bottom" constant="19" id="aSo-EQ-XUt"/>
+                            <constraint firstItem="2RA-GM-hdd" firstAttribute="top" secondItem="31O-p1-5Vl" secondAttribute="bottom" constant="10" id="ecO-nO-x0A"/>
+                            <constraint firstItem="01x-8H-0f0" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="ee1-sJ-OJ4"/>
+                            <constraint firstItem="Cq0-fl-GsR" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="ejz-Wb-uQ3"/>
+                            <constraint firstItem="31O-p1-5Vl" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="hBq-AB-yiq"/>
+                            <constraint firstItem="ISU-Iu-0ay" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="jNf-rS-b6F"/>
+                            <constraint firstItem="Mjb-fx-iY1" firstAttribute="top" secondItem="2RA-GM-hdd" secondAttribute="bottom" constant="8" id="jhe-Km-NY8"/>
+                            <constraint firstItem="aU8-SY-mCU" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="kAb-qB-jvt"/>
+                            <constraint firstItem="31O-p1-5Vl" firstAttribute="top" secondItem="ISU-Iu-0ay" secondAttribute="bottom" constant="11" id="nRb-GE-dEY"/>
+                            <constraint firstItem="rjr-iN-myN" firstAttribute="top" secondItem="3x4-uq-rHn" secondAttribute="bottom" constant="8" id="nU7-ue-i52"/>
+                            <constraint firstItem="01x-8H-0f0" firstAttribute="top" secondItem="HnS-iS-DVR" secondAttribute="bottom" constant="1" id="nw1-rK-fyz"/>
+                            <constraint firstItem="gpf-zz-z4q" firstAttribute="top" secondItem="LxW-hr-PNd" secondAttribute="bottom" constant="16" id="pxl-1Q-KvM"/>
+                            <constraint firstItem="Mjb-fx-iY1" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="qc8-vh-MFc"/>
+                            <constraint firstItem="HnS-iS-DVR" firstAttribute="centerX" secondItem="Otd-3w-d7Q" secondAttribute="centerX" id="szx-xo-a68"/>
+                            <constraint firstItem="HnS-iS-DVR" firstAttribute="top" secondItem="Cq0-fl-GsR" secondAttribute="bottom" constant="9" id="u7u-06-Glb"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live Counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5U-pa-X69">
+                        <rect key="frame" x="95" y="9" width="130" height="35"/>
+                        <color key="backgroundColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="0.71005458050000003" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="t9P-SK-q3o"/>
+                            <constraint firstAttribute="width" constant="130" id="uVl-kg-lhc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Otd-3w-d7Q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="28" id="Bgg-1T-ASn"/>
+                    <constraint firstItem="S5U-pa-X69" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="EC5-bh-TXh"/>
+                    <constraint firstItem="S5U-pa-X69" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="JQp-tD-KHP"/>
+                    <constraint firstAttribute="bottom" secondItem="Otd-3w-d7Q" secondAttribute="bottom" constant="11" id="XuN-UR-IcA"/>
+                    <constraint firstItem="Otd-3w-d7Q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="nO4-UA-diW"/>
+                    <constraint firstAttribute="trailing" secondItem="Otd-3w-d7Q" secondAttribute="trailing" constant="12" id="v4A-zj-KaT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Outerview" destination="Otd-3w-d7Q" id="gVj-F3-fB5"/>
+                <outlet property="lbllivecounter" destination="S5U-pa-X69" id="xfQ-Mn-yyR"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="134.26339285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

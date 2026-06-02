@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Package4TableViewCell" rowHeight="397" id="Vlr-qg-wX7" customClass="Package4TableViewCell" customModule="NiyaRegency" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="397"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vlr-qg-wX7" id="gvW-0C-jvP">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="397"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="niu-jB-9xa">
+                        <rect key="frame" x="13" y="11" width="317" height="374"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kqh-vg-j16">
+                                <rect key="frame" x="0.0" y="0.0" width="317" height="229"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Niya-package-Athirappilly_Vazhachal_Tour_Packages-191101090300" translatesAutoresizingMaskIntoConstraints="NO" id="rQd-Wq-IpZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="317" height="171"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="171" id="wIs-vh-UpN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Athirapilly Vazhachal Tour Packages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mx-9o-sEC">
+                                        <rect key="frame" x="8" y="174" width="291" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="291" id="i5e-X9-8LE"/>
+                                            <constraint firstAttribute="height" constant="21" id="nGd-sd-gX7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹ 5500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHQ-kg-BVt">
+                                        <rect key="frame" x="8" y="200" width="168" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="168" id="Gd8-zc-85x"/>
+                                            <constraint firstAttribute="height" constant="21" id="jEF-El-n0i"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rQd-Wq-IpZ" firstAttribute="leading" secondItem="Kqh-vg-j16" secondAttribute="leading" id="DNF-98-wje"/>
+                                    <constraint firstItem="XHQ-kg-BVt" firstAttribute="leading" secondItem="Kqh-vg-j16" secondAttribute="leading" constant="8" id="Le2-Fz-gFE"/>
+                                    <constraint firstItem="8mx-9o-sEC" firstAttribute="top" secondItem="rQd-Wq-IpZ" secondAttribute="bottom" constant="3" id="Lgj-j8-Onm"/>
+                                    <constraint firstItem="XHQ-kg-BVt" firstAttribute="top" secondItem="8mx-9o-sEC" secondAttribute="bottom" constant="5" id="T8k-K2-x64"/>
+                                    <constraint firstAttribute="trailing" secondItem="rQd-Wq-IpZ" secondAttribute="trailing" id="bef-c5-2v2"/>
+                                    <constraint firstAttribute="height" constant="229" id="cZJ-M9-w6L"/>
+                                    <constraint firstItem="8mx-9o-sEC" firstAttribute="leading" secondItem="Kqh-vg-j16" secondAttribute="leading" constant="8" id="dKm-op-x2i"/>
+                                    <constraint firstItem="rQd-Wq-IpZ" firstAttribute="top" secondItem="Kqh-vg-j16" secondAttribute="top" id="iOo-5Y-U86"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="S8K-ZG-bbV">
+                                <rect key="frame" x="12" y="240" width="24" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KN0-jc-2jU">
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLl-QT-7OQ">
+                                        <rect key="frame" x="0.0" y="32" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkP-bI-8gC">
+                                        <rect key="frame" x="0.0" y="64" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ov9-Cn-xmt">
+                                        <rect key="frame" x="0.0" y="96" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="ZUy-Qy-qSX"/>
+                                    <constraint firstAttribute="width" constant="24" id="ubv-l7-sg3"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Wbh-pu-Sbh">
+                                <rect key="frame" x="45" y="242" width="160" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accomodation for 2pax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckM-Wv-kk6">
+                                        <rect key="frame" x="0.0" y="0.0" width="140.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Executive room on CP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIX-oG-o4w">
+                                        <rect key="frame" x="0.0" y="32" width="132.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Athirapilly waterfalls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxe-Sh-ZvE">
+                                        <rect key="frame" x="0.0" y="64" width="122.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vazhachal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fiz-bu-0KN">
+                                        <rect key="frame" x="0.0" y="96" width="62" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="Lbj-dA-H4h"/>
+                                    <constraint firstAttribute="width" constant="160" id="Sen-lj-rdC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Kqh-vg-j16" firstAttribute="top" secondItem="niu-jB-9xa" secondAttribute="top" id="8N0-4N-sGv"/>
+                            <constraint firstItem="Wbh-pu-Sbh" firstAttribute="leading" secondItem="S8K-ZG-bbV" secondAttribute="trailing" constant="9" id="Kcp-c7-jZS"/>
+                            <constraint firstItem="S8K-ZG-bbV" firstAttribute="leading" secondItem="niu-jB-9xa" secondAttribute="leading" constant="12" id="QJx-5y-vEf"/>
+                            <constraint firstItem="S8K-ZG-bbV" firstAttribute="top" secondItem="Kqh-vg-j16" secondAttribute="bottom" constant="11" id="ROm-K3-EmC"/>
+                            <constraint firstItem="Wbh-pu-Sbh" firstAttribute="top" secondItem="Kqh-vg-j16" secondAttribute="bottom" constant="13" id="TqP-D0-mg1"/>
+                            <constraint firstAttribute="trailing" secondItem="Kqh-vg-j16" secondAttribute="trailing" id="jgA-4m-NEL"/>
+                            <constraint firstItem="Kqh-vg-j16" firstAttribute="leading" secondItem="niu-jB-9xa" secondAttribute="leading" id="jzt-Qa-tyG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="niu-jB-9xa" firstAttribute="top" secondItem="gvW-0C-jvP" secondAttribute="top" constant="11" id="aii-w1-dLF"/>
+                    <constraint firstAttribute="trailing" secondItem="niu-jB-9xa" secondAttribute="trailing" constant="12" id="fBN-Vq-tI2"/>
+                    <constraint firstAttribute="bottom" secondItem="niu-jB-9xa" secondAttribute="bottom" constant="12" id="kb9-6F-9bW"/>
+                    <constraint firstItem="niu-jB-9xa" firstAttribute="leading" secondItem="gvW-0C-jvP" secondAttribute="leading" constant="13" id="vUJ-0O-IUr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="79D-95-GLD"/>
+            <connections>
+                <outlet property="Outerview" destination="niu-jB-9xa" id="Xiq-qb-Pm7"/>
+            </connections>
+            <point key="canvasLocation" x="153.62318840579712" y="111.49553571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Niya-package-Athirappilly_Vazhachal_Tour_Packages-191101090300" width="720" height="405"/>
+        <image name="icons8-unchecked-radio-button-24" width="24" height="24"/>
+    </resources>
+</document>

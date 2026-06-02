@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductsTableViewCell" rowHeight="276" id="OmB-MW-pXu" customClass="ProductsTableViewCell" customModule="NiyaRegency" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="276"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OmB-MW-pXu" id="UGA-v7-bPd">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="276"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thali Specialities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MG5-1I-1cE">
+                        <rect key="frame" x="12" y="15" width="248" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="hHe-vo-2e5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLX-vW-yAZ">
+                        <rect key="frame" x="12" y="44" width="79" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="LNw-1D-SqA"/>
+                            <constraint firstAttribute="width" constant="79" id="VQK-dJ-Hfe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tl3-IE-6Y4">
+                        <rect key="frame" x="12" y="74" width="248" height="187"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="0bW-lg-mhR">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cLX-vW-yAZ" firstAttribute="leading" secondItem="UGA-v7-bPd" secondAttribute="leading" constant="12" id="0vD-gv-CYd"/>
+                    <constraint firstAttribute="bottom" secondItem="tl3-IE-6Y4" secondAttribute="bottom" constant="15" id="6YJ-PZ-2dB"/>
+                    <constraint firstAttribute="trailing" secondItem="tl3-IE-6Y4" secondAttribute="trailing" constant="15" id="R87-nS-m7C"/>
+                    <constraint firstItem="MG5-1I-1cE" firstAttribute="top" secondItem="UGA-v7-bPd" secondAttribute="top" constant="15" id="RbD-62-9kH"/>
+                    <constraint firstItem="cLX-vW-yAZ" firstAttribute="top" secondItem="MG5-1I-1cE" secondAttribute="bottom" constant="8" id="Si5-wT-wN0"/>
+                    <constraint firstItem="tl3-IE-6Y4" firstAttribute="top" secondItem="cLX-vW-yAZ" secondAttribute="bottom" constant="14" id="WgA-6R-wjz"/>
+                    <constraint firstItem="MG5-1I-1cE" firstAttribute="leading" secondItem="UGA-v7-bPd" secondAttribute="leading" constant="12" id="gEh-wv-Q84"/>
+                    <constraint firstItem="tl3-IE-6Y4" firstAttribute="leading" secondItem="UGA-v7-bPd" secondAttribute="leading" constant="12" id="tXP-m1-icO"/>
+                    <constraint firstAttribute="trailing" secondItem="MG5-1I-1cE" secondAttribute="trailing" constant="15" id="vWB-47-QuW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="vrt-IF-0S3"/>
+            <connections>
+                <outlet property="collectionviewproductlist" destination="tl3-IE-6Y4" id="BRi-RE-6gA"/>
+                <outlet property="lblitems" destination="cLX-vW-yAZ" id="Ulx-iJ-Skn"/>
+                <outlet property="lblproductname" destination="MG5-1I-1cE" id="jaB-CP-GQi"/>
+            </connections>
+            <point key="canvasLocation" x="94.927536231884062" y="259.82142857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

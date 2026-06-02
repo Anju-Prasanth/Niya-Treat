@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Package2TableViewCell" rowHeight="333" id="Ycn-9C-TAl" customClass="Package2TableViewCell" customModule="NiyaRegency" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="333"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ycn-9C-TAl" id="gqa-VJ-TcV">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="333"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ln2-Bp-cww">
+                        <rect key="frame" x="13" y="11" width="317" height="310"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyL-rL-MNP">
+                                <rect key="frame" x="0.0" y="0.0" width="317" height="229"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Niya-package-Special_Corporate_Offer_Single_Occupancy-191104120037" translatesAutoresizingMaskIntoConstraints="NO" id="LKS-9i-UnL">
+                                        <rect key="frame" x="0.0" y="0.0" width="317" height="171"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="171" id="AND-Bz-SKh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Corporate Offer Single Occupancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbU-xA-ieR">
+                                        <rect key="frame" x="8" y="174" width="301" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="301" id="b5j-j9-XrZ"/>
+                                            <constraint firstAttribute="height" constant="21" id="ocr-ce-WVL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹ 3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkp-0d-uUe">
+                                        <rect key="frame" x="8" y="200" width="168" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Ir4-8v-Aao"/>
+                                            <constraint firstAttribute="width" constant="168" id="xdl-CN-ndd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Rkp-0d-uUe" firstAttribute="top" secondItem="bbU-xA-ieR" secondAttribute="bottom" constant="5" id="BnG-tb-Zza"/>
+                                    <constraint firstAttribute="trailing" secondItem="LKS-9i-UnL" secondAttribute="trailing" id="CYO-ZX-xaf"/>
+                                    <constraint firstItem="Rkp-0d-uUe" firstAttribute="leading" secondItem="wyL-rL-MNP" secondAttribute="leading" constant="8" id="ESn-Ka-eKP"/>
+                                    <constraint firstItem="LKS-9i-UnL" firstAttribute="leading" secondItem="wyL-rL-MNP" secondAttribute="leading" id="Fsv-hJ-zl2"/>
+                                    <constraint firstItem="bbU-xA-ieR" firstAttribute="leading" secondItem="wyL-rL-MNP" secondAttribute="leading" constant="8" id="JLp-Kz-GYt"/>
+                                    <constraint firstItem="bbU-xA-ieR" firstAttribute="top" secondItem="LKS-9i-UnL" secondAttribute="bottom" constant="3" id="bhE-og-VCS"/>
+                                    <constraint firstAttribute="height" constant="229" id="e5l-7P-FIa"/>
+                                    <constraint firstItem="LKS-9i-UnL" firstAttribute="top" secondItem="wyL-rL-MNP" secondAttribute="top" id="qSc-vj-WDs"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7I3-jG-Acg">
+                                <rect key="frame" x="2" y="240" width="24" height="56"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X10-vv-uHj">
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5W-kc-lrT">
+                                        <rect key="frame" x="0.0" y="32" width="24" height="24"/>
+                                        <state key="normal" image="icons8-unchecked-radio-button-24"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="ZAh-Wh-aTR"/>
+                                    <constraint firstAttribute="height" constant="56" id="kWc-V9-13e"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="qJQ-KW-T63">
+                                <rect key="frame" x="32" y="242" width="280" height="48"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accomodation for 1 person in Standard Room" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kA3-vH-Mts">
+                                        <rect key="frame" x="0.0" y="0.0" width="274" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xod-Wh-V4L">
+                                        <rect key="frame" x="0.0" y="32" width="88" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="VgV-Gb-WGw"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7I3-jG-Acg" firstAttribute="leading" secondItem="Ln2-Bp-cww" secondAttribute="leading" constant="2" id="1q0-gz-315"/>
+                            <constraint firstItem="7I3-jG-Acg" firstAttribute="top" secondItem="wyL-rL-MNP" secondAttribute="bottom" constant="11" id="FAm-BS-K21"/>
+                            <constraint firstItem="wyL-rL-MNP" firstAttribute="top" secondItem="Ln2-Bp-cww" secondAttribute="top" id="FZH-oj-TuE"/>
+                            <constraint firstItem="wyL-rL-MNP" firstAttribute="leading" secondItem="Ln2-Bp-cww" secondAttribute="leading" id="NNl-wP-0aW"/>
+                            <constraint firstAttribute="trailing" secondItem="qJQ-KW-T63" secondAttribute="trailing" constant="5" id="ROJ-Zq-Zbg"/>
+                            <constraint firstAttribute="trailing" secondItem="wyL-rL-MNP" secondAttribute="trailing" id="RkI-O3-NTU"/>
+                            <constraint firstItem="qJQ-KW-T63" firstAttribute="top" secondItem="wyL-rL-MNP" secondAttribute="bottom" constant="13" id="Yxc-Xi-JXC"/>
+                            <constraint firstItem="qJQ-KW-T63" firstAttribute="leading" secondItem="7I3-jG-Acg" secondAttribute="trailing" constant="6" id="uQ1-Dg-Cyr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Ln2-Bp-cww" secondAttribute="bottom" constant="12" id="ac7-N2-nxd"/>
+                    <constraint firstItem="Ln2-Bp-cww" firstAttribute="top" secondItem="gqa-VJ-TcV" secondAttribute="top" constant="11" id="aoc-HN-IR8"/>
+                    <constraint firstAttribute="trailing" secondItem="Ln2-Bp-cww" secondAttribute="trailing" constant="12" id="pX8-EU-7Yw"/>
+                    <constraint firstItem="Ln2-Bp-cww" firstAttribute="leading" secondItem="gqa-VJ-TcV" secondAttribute="leading" constant="13" id="wfT-Wz-HUo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="3yy-ha-7ks"/>
+            <connections>
+                <outlet property="Outerview" destination="Ln2-Bp-cww" id="Igd-2f-pF5"/>
+            </connections>
+            <point key="canvasLocation" x="518.84057971014499" y="120.20089285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Niya-package-Special_Corporate_Offer_Single_Occupancy-191104120037" width="612" height="408"/>
+        <image name="icons8-unchecked-radio-button-24" width="24" height="24"/>
+    </resources>
+</document>
